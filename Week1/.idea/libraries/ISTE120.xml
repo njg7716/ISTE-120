@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="ISTE120">
+    <CLASSES>
+      <root url="file:$PROJECT_DIR$/../../../../../..//$USER_HOME$/Documents/GitHub/ISTE120" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:$PROJECT_DIR$/../../../../../..//$USER_HOME$/Documents/GitHub/ISTE120/Week1" />
+      <root url="file:$PROJECT_DIR$/../../../../../..//$USER_HOME$/Documents/GitHub/ISTE120/Week1/Homework1" />
+      <root url="file:$PROJECT_DIR$/../../../../../..//$USER_HOME$/Documents/GitHub/ISTE120/Week1/Lab1/Exercise1&amp;2" />
+      <root url="file:$PROJECT_DIR$/../../../../../..//$USER_HOME$/Documents/GitHub/ISTE120/Week1/Lab1/Exercise3" />
+      <root url="file:$PROJECT_DIR$/../../../../../..//$USER_HOME$/Documents/GitHub/ISTE120/Week1/Lab1/Exercise4" />
+    </SOURCES>
+  </library>
+</component>
