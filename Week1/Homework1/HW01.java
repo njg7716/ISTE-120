@@ -21,5 +21,11 @@ public class HW01 {
       canvas.draw(t1);
       canvas.draw(t2);
       canvas.draw(t3);
+      System.out.println(rec1);
+      System.out.println(rec2);
+      System.out.println(c);
+      System.out.println(t1);
+      System.out.println(t2);
+      System.out.println(t3);
    }
 }
