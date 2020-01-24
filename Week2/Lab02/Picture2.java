@@ -6,7 +6,7 @@ import java.awt.*;
  * colors (only after it's been drawn, of course).
  *
  */
-public class Picture1
+public class Picture2
 {
     private Canvas canvas;
     private Rectangle wall;
@@ -17,7 +17,7 @@ public class Picture1
     /**
      * Constructor for objects of class Picture
      */
-    public Picture1()
+    public Picture2()
     {
        canvas = new Canvas("Picture", 400, 400);
     }
@@ -27,17 +27,31 @@ public class Picture1
      */
     public void draw()
     {
-        wall = new Rectangle(40, 140, 100, 100, Color.BLUE, true);
+        wall = new Rectangle(40, 140, 100, 100, Color.RED, true);
         
         window = new Rectangle(60, 160, 30, 30, true);
 
-        roof = new Triangle(20, 100, 140, 40, Color.MAGENTA, true);  
+        roof = new Triangle(20, 100, 140, 40, Color.GREEN, true);  
         
-        sun = new Circle(180, 20, 20, Color.RED, true);
+        sun = new Circle(180, 20, 20, Color.YELLOW, true);
         
         canvas.draw(wall);
         canvas.draw(window);
         canvas.draw(roof);
         canvas.draw(sun);
+    }
+    
+    public void setNewColors(){
+      wall.setColor(Color.BLUE);
+      roof.setColor(Color.MAGENTA);
+      sun.setColor(Color.RED);
+      canvas.redraw();
+    }
+    
+    public void setOrigColors(){
+      wall.setColor(Color.RED);
+      roof.setColor(Color.GREEN);
+      sun.setColor(Color.YELLOW);
+      canvas.redraw();
     }
 }
