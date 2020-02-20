@@ -24,7 +24,7 @@ public class TestCalc1 {
    
    public void div(double num){
       if (num == 0 ){
-         System.out.println("ATTEMPT TO DEVIDE BY ZERO - IGNORED");
+         System.out.println("ATTEMPT TO DIVIDE BY ZERO - IGNORED");
       }
       else{
          accumulator = accumulator/num;
