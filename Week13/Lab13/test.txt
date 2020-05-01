@@ -1,0 +1,5 @@
+Test Data for ISTE-120 Lab 13
+12345678901234567890123456789012345678901234567890
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+12345678901234567890123456789012345678901234567890
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
